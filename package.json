@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-comingsoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "resolutions": {
+    "node-forge": "0.10.0"
+  }
+}
